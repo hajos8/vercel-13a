@@ -8,6 +8,17 @@ export default async function handler(req, res) {
         return res.status(200).json(result);
     }
 
+    if (req.method === 'POST') {
+        //TODO
+    }
+
+    if (req.method === 'PUT') {
+        //TODO
+    }
+
+    if (req.method === 'DELETE') {
+        //TODO
+    }
 
     return res.status(200).json('neon-cats api is working');
 }
