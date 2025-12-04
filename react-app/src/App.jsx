@@ -1,5 +1,6 @@
 import './App.css'
 import Cats from './Cats'
+import Gypsy from './Gypsy'
 
 function App() {
 
