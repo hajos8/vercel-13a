@@ -7,8 +7,7 @@ export default function Gypsy() {
     useEffect(() => {
         (async () => {
             const res = await supabase.from("students").select();
-            const data = await res.json();
-            setGypsy(data);
+            setGypsy(res);
         })().catch(console.error).finally(() => console.log('fetching gypsy complete'));
     }, []);
 
