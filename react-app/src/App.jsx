@@ -7,6 +7,8 @@ function App() {
     <>
       <h1>Cats</h1>
       <Cats />
+      <h1>Gypsy</h1>
+      <Gypsy />
     </>
   )
 }
