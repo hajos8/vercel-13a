@@ -13,8 +13,10 @@
     "@neondatabase/serverless": "^1.0.2",
     "@supabase/supabase-js": "^2.86.0",
     "cors": "^2.8.5",
+    "firebase": "^12.6.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "serverless-mysql": "^2.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
